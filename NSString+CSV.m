@@ -10,7 +10,7 @@
 
 
 @implementation NSString (CSV)
-
+// Git work damnit
 -(NSArray *)csvRows {
     NSMutableArray *rows = [NSMutableArray array];
 	
