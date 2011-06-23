@@ -1,0 +1,15 @@
+//
+// Prefix header for all source files of the 'Domain Master' target in the 'Domain Master' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
+
+#ifdef DEBUG
+#    define MNLog(...) NSLog(__VA_ARGS__)
+#    define mlog(x) MNLog(x)
+#else
+#    define MNLog(...) //
+#    define mlog(x) //
+#endif

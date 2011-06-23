@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+
+<!-- domainDescription.plist -->
+<!-- Domain Master -->
+<!-- Created by Moo on 3/21/09. -->
+<!-- Copyright 2009 Micmoo. All rights reserved. -->
+
+<plist version="1.0">
+<dict>
+	<key>DisplayName</key>
+	<string>Domain Master</string>
+	<key>Entities</key>
+	<dict>
+		<key>org.micmoo.DomainSyncSchema.Hosting</key>
+		<array>
+			<string>com.apple.syncservices.RecordEntityName</string>
+			<string>comment</string>
+			<string>domainName</string>
+			<string>expirationDate</string>
+			<string>hostedWith</string>
+			<string>needsToBeRenewed</string>
+			<string>password</string>
+			<string>price</string>
+			<string>sentTamiBill</string>
+			<string>setupDate</string>
+			<string>tamiSentBill</string>
+			<string>username</string>
+			<!-- <string>aRelationship</string> -->
+		</array>
+		<key>org.micmoo.DomainSyncSchema.Domain</key>
+		<array>
+			<string>com.apple.syncservices.RecordEntityName</string>
+			<string>client</string>
+			<string>comment</string>
+			<string>domainName</string>
+			<string>expirationDate</string>
+			<string>needsToBeRenewed</string>
+			<string>numberOfYears</string>
+			<string>password</string>
+			<string>price</string>
+			<string>registrar</string>
+			<string>sentTamiBill</string>
+			<string>tamiSentBill</string>
+			<string>username</string>
+			<!-- <string>aRelationship</string> -->
+		</array>
+	</dict>
+	<key>Type</key>
+	<string>app</string>
+</dict>
+</plist>

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/2/trunk/build/Debug/Domain%20Master.app/Contents/Resources
+END
+Domain_Master_DataModel.mom
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/2/trunk/build/Debug/Domain%20Master.app/Contents/Resources/Domain_Master_DataModel.mom
+END
+icon.icns
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/2/trunk/build/Debug/Domain%20Master.app/Contents/Resources/icon.icns
+END
+domainDescription.plist
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/2/trunk/build/Debug/Domain%20Master.app/Contents/Resources/domainDescription.plist
+END
+Preferences.nib
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/2/trunk/build/Debug/Domain%20Master.app/Contents/Resources/Preferences.nib
+END
+domainCSVImporter.xls
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/2/trunk/build/Debug/Domain%20Master.app/Contents/Resources/domainCSVImporter.xls
+END
+hostingCSVImporter.xls
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/2/trunk/build/Debug/Domain%20Master.app/Contents/Resources/hostingCSVImporter.xls
+END

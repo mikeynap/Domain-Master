@@ -1,0 +1,677 @@
+TDomain Master
+v7
+r0
+t323382240.114057
+cCheck dependencies
+cProcessInfoPlistFile "/Users/Moo/Coding/Domain Master/build/Release/Domain Master.app/Contents/Info.plist" Info.plist
+cCopyStringsFile "/Users/Moo/Coding/Domain Master/build/Release/Domain Master.app/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
+cCompileXIB "/Users/Moo/Coding/Domain Master/English.lproj/MainMenu.xib"
+cCpResource "build/Release/Domain Master.app/Contents/Resources/icon.icns" icon.icns
+cCompileXIB "/Users/Moo/Coding/Domain Master/Preferences.xib"
+cCpResource "build/Release/Domain Master.app/Contents/Resources/hostingCSVImporter.xls" hostingCSVImporter.xls
+cCpResource "build/Release/Domain Master.app/Contents/Resources/domainCSVImporter.xls" domainCSVImporter.xls
+cProcessPCH /var/folders/62/62QOQmGMGbusPGWKQ-IiLU+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/Domain_Master_Prefix-dkqxedwqoldvvldcmnqedsrfvyph/Domain_Master_Prefix.pch.gch Domain_Master_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/62/62QOQmGMGbusPGWKQ-IiLU+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/Domain_Master_Prefix-dxdllvsvrisxlvazwbuprtprxjxv/Domain_Master_Prefix.pch.gch Domain_Master_Prefix.pch normal ppc objective-c com.apple.compilers.gcc.4_2
+cDataModelCompile "/Users/Moo/Coding/Domain Master/build/Release/Domain Master.app/Contents/Resources/Domain_Master_DataModel.mom" "/Users/Moo/Coding/Domain Master/Domain_Master_DataModel.xcdatamodel"
+cCompileC "build/Domain Master.build/Release/Domain Master.build/Objects-normal/i386/main.o" "/Users/Moo/Coding/Domain Master/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Domain Master.build/Release/Domain Master.build/Objects-normal/i386/AppDelegate.o" "/Users/Moo/Coding/Domain Master/AppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Domain Master.build/Release/Domain Master.build/Objects-normal/i386/MNDomainArrayController.o" "/Users/Moo/Coding/Domain Master/MNDomainArrayController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Domain Master.build/Release/Domain Master.build/Objects-normal/i386/MNHostingArrayController.o" "/Users/Moo/Coding/Domain Master/MNHostingArrayController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Domain Master.build/Release/Domain Master.build/Objects-normal/i386/PreferenceController.o" "/Users/Moo/Coding/Domain Master/PreferenceController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Domain Master.build/Release/Domain Master.build/Objects-normal/i386/NSString+CSV.o" "/Users/Moo/Coding/Domain Master/NSString+CSV.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Domain Master.build/Release/Domain Master.build/Objects-normal/ppc/main.o" "/Users/Moo/Coding/Domain Master/main.m" normal ppc objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Domain Master.build/Release/Domain Master.build/Objects-normal/ppc/AppDelegate.o" "/Users/Moo/Coding/Domain Master/AppDelegate.m" normal ppc objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Domain Master.build/Release/Domain Master.build/Objects-normal/ppc/MNDomainArrayController.o" "/Users/Moo/Coding/Domain Master/MNDomainArrayController.m" normal ppc objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Domain Master.build/Release/Domain Master.build/Objects-normal/ppc/MNHostingArrayController.o" "/Users/Moo/Coding/Domain Master/MNHostingArrayController.m" normal ppc objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Domain Master.build/Release/Domain Master.build/Objects-normal/ppc/PreferenceController.o" "/Users/Moo/Coding/Domain Master/PreferenceController.m" normal ppc objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Domain Master.build/Release/Domain Master.build/Objects-normal/ppc/NSString+CSV.o" "/Users/Moo/Coding/Domain Master/NSString+CSV.m" normal ppc objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/Moo/Coding/Domain Master/build/Domain Master.build/Release/Domain Master.build/Objects-normal/i386/Domain Master" normal i386
+cLd "/Users/Moo/Coding/Domain Master/build/Domain Master.build/Release/Domain Master.build/Objects-normal/ppc/Domain Master" normal ppc
+cCreateUniversalBinary "/Users/Moo/Coding/Domain Master/build/Release/Domain Master.app/Contents/MacOS/Domain Master" normal "i386 ppc"
+cGenerateDSYMFile "/Users/Moo/Coding/Domain Master/build/Release/Domain Master.app.dSYM" "/Users/Moo/Coding/Domain Master/build/Release/Domain Master.app/Contents/MacOS/Domain Master"
+cPBXCp "build/Release/Domain Master.app/Contents/Frameworks/Sparkle.framework" Sparkle.framework
+cTouch "/Users/Moo/Coding/Domain Master/build/Release/Domain Master.app"
+
+N/Developer/SDKs/MacOSX10.4u.sdk
+c000000004A1199E200000000000000EE
+t1242667490
+s238
+
+N/Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.5.sdk
+c000000004A49A9E400000000000000EE
+t1246341604
+s238
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/Users/Moo/Coding/Domain Master/AppDelegate.h
+c000000004B2690B70000000000000675
+t1260818615
+s1653
+i<Cocoa/Cocoa.h>
+
+N/Users/Moo/Coding/Domain Master/AppDelegate.m
+c000000004B2693210000000000002E4E
+t1260819233
+s11854
+i"AppDelegate.h"
+i"MNHostingArrayController.h"
+i"PreferenceController.h"
+i"NSString+CSV.h"
+
+N/Users/Moo/Coding/Domain Master/Domain_Master_DataModel.xcdatamodel
+c0000000049C577170000000000000088
+t1237677847
+s136
+
+N/Users/Moo/Coding/Domain Master/Domain_Master_Prefix.pch
+c0000000049D14D120000000000000130
+t1238453522
+s304
+i<Cocoa/Cocoa.h>
+
+N/Users/Moo/Coding/Domain Master/English.lproj/InfoPlist.strings
+c0000000049C55B7000000000000000B4
+t1237670768
+s180
+
+N/Users/Moo/Coding/Domain Master/English.lproj/MainMenu.xib
+c000000004B269A5D0000000000052685
+t1260821085
+s337541
+
+N/Users/Moo/Coding/Domain Master/MNDomainArrayController.h
+c0000000049CFCC5900000000000001F6
+t1238355033
+s502
+i<Cocoa/Cocoa.h>
+
+N/Users/Moo/Coding/Domain Master/MNDomainArrayController.m
+c0000000049D037B20000000000000CBF
+t1238382514
+s3263
+i"MNDomainArrayController.h"
+i"NSString+CSV.h"
+
+N/Users/Moo/Coding/Domain Master/MNHostingArrayController.h
+c000000004B26951F0000000000000263
+t1260819743
+s611
+i<Cocoa/Cocoa.h>
+
+N/Users/Moo/Coding/Domain Master/MNHostingArrayController.m
+c000000004B26963F0000000000000EE3
+t1260820031
+s3811
+i"MNHostingArrayController.h"
+i"NSString+CSV.h"
+
+N/Users/Moo/Coding/Domain Master/NSString+CSV.h
+c0000000049CE77FE00000000000000CE
+t1238267902
+s206
+i<Cocoa/Cocoa.h>
+
+N/Users/Moo/Coding/Domain Master/NSString+CSV.m
+c0000000049CE77E10000000000000C74
+t1238267873
+s3188
+i"NSString+CSV.h"
+
+N/Users/Moo/Coding/Domain Master/PreferenceController.h
+c0000000049D1483000000000000003F2
+t1238452272
+s1010
+i<Cocoa/Cocoa.h>
+
+N/Users/Moo/Coding/Domain Master/PreferenceController.m
+c0000000049D148380000000000000BF1
+t1238452280
+s3057
+i"PreferenceController.h"
+
+N/Users/Moo/Coding/Domain Master/Preferences.xib
+c0000000049D147F10000000000007AF8
+t1238452209
+s31480
+
+N/Users/Moo/Coding/Domain Master/Sparkle.framework
+c0000000049C5896800000000000000CC
+t1237682536
+s204
+
+N/Users/Moo/Coding/Domain Master/Sparkle.framework/Sparkle
+c0000000048CC863400000000000713C4
+t1221363252
+s463812
+
+N/Users/Moo/Coding/Domain Master/build/Domain Master.build/Release/Domain Master.build/Objects-normal/i386/AppDelegate.o
+t1301689438
+s57500
+
+N/Users/Moo/Coding/Domain Master/build/Domain Master.build/Release/Domain Master.build/Objects-normal/i386/Domain Master
+t1301689439
+s40760
+
+N/Users/Moo/Coding/Domain Master/build/Domain Master.build/Release/Domain Master.build/Objects-normal/i386/Domain Master.LinkFileList
+c0000000049D14D9E00000000000002EC
+t1238453662
+s748
+
+N/Users/Moo/Coding/Domain Master/build/Domain Master.build/Release/Domain Master.build/Objects-normal/i386/MNDomainArrayController.o
+t1301689438
+s28756
+
+N/Users/Moo/Coding/Domain Master/build/Domain Master.build/Release/Domain Master.build/Objects-normal/i386/MNHostingArrayController.o
+t1301689438
+s33176
+
+N/Users/Moo/Coding/Domain Master/build/Domain Master.build/Release/Domain Master.build/Objects-normal/i386/NSString+CSV.o
+t1301689438
+s9124
+
+N/Users/Moo/Coding/Domain Master/build/Domain Master.build/Release/Domain Master.build/Objects-normal/i386/PreferenceController.o
+t1301689438
+s21408
+
+N/Users/Moo/Coding/Domain Master/build/Domain Master.build/Release/Domain Master.build/Objects-normal/i386/main.o
+t1301689438
+s4832
+
+N/Users/Moo/Coding/Domain Master/build/Domain Master.build/Release/Domain Master.build/Objects-normal/ppc/AppDelegate.o
+t1301689438
+s61956
+
+N/Users/Moo/Coding/Domain Master/build/Domain Master.build/Release/Domain Master.build/Objects-normal/ppc/Domain Master
+t1301689439
+s39916
+
+N/Users/Moo/Coding/Domain Master/build/Domain Master.build/Release/Domain Master.build/Objects-normal/ppc/Domain Master.LinkFileList
+c0000000049D14D9E00000000000002E6
+t1238453662
+s742
+
+N/Users/Moo/Coding/Domain Master/build/Domain Master.build/Release/Domain Master.build/Objects-normal/ppc/MNDomainArrayController.o
+t1301689438
+s31392
+
+N/Users/Moo/Coding/Domain Master/build/Domain Master.build/Release/Domain Master.build/Objects-normal/ppc/MNHostingArrayController.o
+t1301689438
+s35944
+
+N/Users/Moo/Coding/Domain Master/build/Domain Master.build/Release/Domain Master.build/Objects-normal/ppc/NSString+CSV.o
+t1301689438
+s9824
+
+N/Users/Moo/Coding/Domain Master/build/Domain Master.build/Release/Domain Master.build/Objects-normal/ppc/PreferenceController.o
+t1301689438
+s22948
+
+N/Users/Moo/Coding/Domain Master/build/Domain Master.build/Release/Domain Master.build/Objects-normal/ppc/main.o
+t1301689438
+s4864
+
+N/Users/Moo/Coding/Domain Master/build/Release/Domain Master.app
+t1301689440
+s102
+
+N/Users/Moo/Coding/Domain Master/build/Release/Domain Master.app.dSYM
+t1301689439
+s102
+
+N/Users/Moo/Coding/Domain Master/build/Release/Domain Master.app/Contents/Frameworks/Sparkle.framework
+t1301689439
+s204
+
+N/Users/Moo/Coding/Domain Master/build/Release/Domain Master.app/Contents/Info.plist
+t1301689432
+s1010
+
+N/Users/Moo/Coding/Domain Master/build/Release/Domain Master.app/Contents/MacOS/Domain Master
+t1301689439
+s84972
+
+N/Users/Moo/Coding/Domain Master/build/Release/Domain Master.app/Contents/PkgInfo
+t1301689432
+s8
+
+N/Users/Moo/Coding/Domain Master/build/Release/Domain Master.app/Contents/Resources/Domain_Master_DataModel.mom
+t1260220696
+s4430
+
+N/Users/Moo/Coding/Domain Master/build/Release/Domain Master.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1260220693
+s180
+
+N/Users/Moo/Coding/Domain Master/build/Release/Domain Master.app/Contents/Resources/English.lproj/MainMenu.nib
+t1301689433
+s68921
+
+N/Users/Moo/Coding/Domain Master/build/Release/Domain Master.app/Contents/Resources/Preferences.nib
+t1301689433
+s8547
+
+N/Users/Moo/Coding/Domain Master/build/Release/Domain Master.app/Contents/Resources/domainCSVImporter.xls
+t1301689432
+s9728
+
+N/Users/Moo/Coding/Domain Master/build/Release/Domain Master.app/Contents/Resources/hostingCSVImporter.xls
+t1301689432
+s6656
+
+N/Users/Moo/Coding/Domain Master/build/Release/Domain Master.app/Contents/Resources/icon.icns
+t1301689432
+s224399
+
+N/Users/Moo/Coding/Domain Master/domainCSVImporter.xls
+c0000000049CFC3D90000000000002600
+t1238352857
+s9728
+
+N/Users/Moo/Coding/Domain Master/hostingCSVImporter.xls
+c0000000049CFC4490000000000001A00
+t1238352969
+s6656
+
+N/Users/Moo/Coding/Domain Master/icon.icns
+c00000000488FD5410000000000036C8F
+t1217385793
+s224399
+
+N/Users/Moo/Coding/Domain Master/main.m
+c0000000049C55B7000000000000000EF
+t1237670768
+s239
+i<Cocoa/Cocoa.h>
+
+N/var/folders/62/62QOQmGMGbusPGWKQ-IiLU+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/Domain_Master_Prefix-atectbbkyhnzfxcwtdrzmlvoqlpj/Domain_Master_Prefix.pch.gch
+t1260220696
+s50016496
+
+N/var/folders/62/62QOQmGMGbusPGWKQ-IiLU+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/Domain_Master_Prefix-biwmzckwmnosduabrfdomgxwcdbw/Domain_Master_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/62/62QOQmGMGbusPGWKQ-IiLU+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/Domain_Master_Prefix-dkqxedwqoldvvldcmnqedsrfvyph/Domain_Master_Prefix.pch.gch
+t1301689438
+s52785584
+
+N/var/folders/62/62QOQmGMGbusPGWKQ-IiLU+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/Domain_Master_Prefix-dnzvnjkxhpergkethqoauqmyybyq/Domain_Master_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/62/62QOQmGMGbusPGWKQ-IiLU+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/Domain_Master_Prefix-dxdllvsvrisxlvazwbuprtprxjxv/Domain_Master_Prefix.pch.gch
+t1301689438
+s50008304
+
+N/var/folders/62/62QOQmGMGbusPGWKQ-IiLU+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/Domain_Master_Prefix-ereuthipmwqgrubnxjlbjhqrehzi/Domain_Master_Prefix.pch.gch
+t1260220696
+s52801968
+
+NInfo.plist
+c000000004B269A8D00000000000003F9
+t1260821133
+s1017
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies323382232#323382232#0(0"0(0#1#0"32651513917735028#0"0#
+
+CCompileC "build/Domain Master.build/Release/Domain Master.build/Objects-normal/i386/AppDelegate.o" "/Users/Moo/Coding/Domain Master/AppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s323382238.308000
+e323382238.816319
+r1
+xCompileC
+xbuild/Domain Master.build/Release/Domain Master.build/Objects-normal/i386/AppDelegate.o
+x/Users/Moo/Coding/Domain Master/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@53"Compile /Users/Moo/Coding/Domain Master/AppDelegate.m323382238#323382238#0(0"0(0#0#45"/Users/Moo/Coding/Domain Master/AppDelegate.m8597209120#1181"    cd "/Users/Moo/Coding/Domain Master"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -isysroot /Developer/SDKs/MacOSX10.5.sdk -fobjc-gc-only -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/Moo/Coding/Domain Master/build/Domain Master.build/Release/Domain Master.build/Domain Master.hmap" "-F/Users/Moo/Coding/Domain Master/build/Release" "-F/Users/Moo/Coding/Domain Master" "-I/Users/Moo/Coding/Domain Master/build/Release/include" "-I/Users/Moo/Coding/Domain Master/build/Domain Master.build/Release/Domain Master.build/DerivedSources/i386" "-I/Users/Moo/Coding/Domain Master/build/Domain Master.build/Release/Domain Master.build/DerivedSources" -include /var/folders/62/62QOQmGMGbusPGWKQ-IiLU+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/Domain_Master_Prefix-dkqxedwqoldvvldcmnqedsrfvyph/Domain_Master_Prefix.pch -c "/Users/Moo/Coding/Domain Master/AppDelegate.m" -o "/Users/Moo/Coding/Domain Master/build/Domain Master.build/Release/Domain Master.build/Objects-normal/i386/AppDelegate.o"0#
+
+CCompileC "build/Domain Master.build/Release/Domain Master.build/Objects-normal/i386/MNDomainArrayController.o" "/Users/Moo/Coding/Domain Master/MNDomainArrayController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s323382238.308810
+e323382238.698419
+r1
+xCompileC
+xbuild/Domain Master.build/Release/Domain Master.build/Objects-normal/i386/MNDomainArrayController.o
+x/Users/Moo/Coding/Domain Master/MNDomainArrayController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/Moo/Coding/Domain Master/MNDomainArrayController.m323382238#323382238#0(0"0(0#0#57"/Users/Moo/Coding/Domain Master/MNDomainArrayController.m8610041568#1205"    cd "/Users/Moo/Coding/Domain Master"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -isysroot /Developer/SDKs/MacOSX10.5.sdk -fobjc-gc-only -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/Moo/Coding/Domain Master/build/Domain Master.build/Release/Domain Master.build/Domain Master.hmap" "-F/Users/Moo/Coding/Domain Master/build/Release" "-F/Users/Moo/Coding/Domain Master" "-I/Users/Moo/Coding/Domain Master/build/Release/include" "-I/Users/Moo/Coding/Domain Master/build/Domain Master.build/Release/Domain Master.build/DerivedSources/i386" "-I/Users/Moo/Coding/Domain Master/build/Domain Master.build/Release/Domain Master.build/DerivedSources" -include /var/folders/62/62QOQmGMGbusPGWKQ-IiLU+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/Domain_Master_Prefix-dkqxedwqoldvvldcmnqedsrfvyph/Domain_Master_Prefix.pch -c "/Users/Moo/Coding/Domain Master/MNDomainArrayController.m" -o "/Users/Moo/Coding/Domain Master/build/Domain Master.build/Release/Domain Master.build/Objects-normal/i386/MNDomainArrayController.o"0#
+
+CCompileC "build/Domain Master.build/Release/Domain Master.build/Objects-normal/i386/MNHostingArrayController.o" "/Users/Moo/Coding/Domain Master/MNHostingArrayController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s323382238.309536
+e323382238.698766
+r1
+xCompileC
+xbuild/Domain Master.build/Release/Domain Master.build/Objects-normal/i386/MNHostingArrayController.o
+x/Users/Moo/Coding/Domain Master/MNHostingArrayController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/Moo/Coding/Domain Master/MNHostingArrayController.m323382238#323382238#0(0"0(0#0#58"/Users/Moo/Coding/Domain Master/MNHostingArrayController.m8595899936#1207"    cd "/Users/Moo/Coding/Domain Master"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -isysroot /Developer/SDKs/MacOSX10.5.sdk -fobjc-gc-only -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/Moo/Coding/Domain Master/build/Domain Master.build/Release/Domain Master.build/Domain Master.hmap" "-F/Users/Moo/Coding/Domain Master/build/Release" "-F/Users/Moo/Coding/Domain Master" "-I/Users/Moo/Coding/Domain Master/build/Release/include" "-I/Users/Moo/Coding/Domain Master/build/Domain Master.build/Release/Domain Master.build/DerivedSources/i386" "-I/Users/Moo/Coding/Domain Master/build/Domain Master.build/Release/Domain Master.build/DerivedSources" -include /var/folders/62/62QOQmGMGbusPGWKQ-IiLU+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/Domain_Master_Prefix-dkqxedwqoldvvldcmnqedsrfvyph/Domain_Master_Prefix.pch -c "/Users/Moo/Coding/Domain Master/MNHostingArrayController.m" -o "/Users/Moo/Coding/Domain Master/build/Domain Master.build/Release/Domain Master.build/Objects-normal/i386/MNHostingArrayController.o"0#
+
+CCompileC "build/Domain Master.build/Release/Domain Master.build/Objects-normal/i386/NSString+CSV.o" "/Users/Moo/Coding/Domain Master/NSString+CSV.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s323382238.311175
+e323382238.622298
+r1
+xCompileC
+xbuild/Domain Master.build/Release/Domain Master.build/Objects-normal/i386/NSString+CSV.o
+x/Users/Moo/Coding/Domain Master/NSString+CSV.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/Moo/Coding/Domain Master/NSString+CSV.m323382238#323382238#0(0"0(0#0#46"/Users/Moo/Coding/Domain Master/NSString+CSV.m8594737440#1183"    cd "/Users/Moo/Coding/Domain Master"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -isysroot /Developer/SDKs/MacOSX10.5.sdk -fobjc-gc-only -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/Moo/Coding/Domain Master/build/Domain Master.build/Release/Domain Master.build/Domain Master.hmap" "-F/Users/Moo/Coding/Domain Master/build/Release" "-F/Users/Moo/Coding/Domain Master" "-I/Users/Moo/Coding/Domain Master/build/Release/include" "-I/Users/Moo/Coding/Domain Master/build/Domain Master.build/Release/Domain Master.build/DerivedSources/i386" "-I/Users/Moo/Coding/Domain Master/build/Domain Master.build/Release/Domain Master.build/DerivedSources" -include /var/folders/62/62QOQmGMGbusPGWKQ-IiLU+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/Domain_Master_Prefix-dkqxedwqoldvvldcmnqedsrfvyph/Domain_Master_Prefix.pch -c "/Users/Moo/Coding/Domain Master/NSString+CSV.m" -o "/Users/Moo/Coding/Domain Master/build/Domain Master.build/Release/Domain Master.build/Objects-normal/i386/NSString+CSV.o"0#
+
+CCompileC "build/Domain Master.build/Release/Domain Master.build/Objects-normal/i386/PreferenceController.o" "/Users/Moo/Coding/Domain Master/PreferenceController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s323382238.310213
+e323382238.623934
+r1
+xCompileC
+xbuild/Domain Master.build/Release/Domain Master.build/Objects-normal/i386/PreferenceController.o
+x/Users/Moo/Coding/Domain Master/PreferenceController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/Moo/Coding/Domain Master/PreferenceController.m323382238#323382238#0(0"0(0#0#54"/Users/Moo/Coding/Domain Master/PreferenceController.m8610704832#1199"    cd "/Users/Moo/Coding/Domain Master"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -isysroot /Developer/SDKs/MacOSX10.5.sdk -fobjc-gc-only -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/Moo/Coding/Domain Master/build/Domain Master.build/Release/Domain Master.build/Domain Master.hmap" "-F/Users/Moo/Coding/Domain Master/build/Release" "-F/Users/Moo/Coding/Domain Master" "-I/Users/Moo/Coding/Domain Master/build/Release/include" "-I/Users/Moo/Coding/Domain Master/build/Domain Master.build/Release/Domain Master.build/DerivedSources/i386" "-I/Users/Moo/Coding/Domain Master/build/Domain Master.build/Release/Domain Master.build/DerivedSources" -include /var/folders/62/62QOQmGMGbusPGWKQ-IiLU+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/Domain_Master_Prefix-dkqxedwqoldvvldcmnqedsrfvyph/Domain_Master_Prefix.pch -c "/Users/Moo/Coding/Domain Master/PreferenceController.m" -o "/Users/Moo/Coding/Domain Master/build/Domain Master.build/Release/Domain Master.build/Objects-normal/i386/PreferenceController.o"0#
+
+CCompileC "build/Domain Master.build/Release/Domain Master.build/Objects-normal/i386/main.o" "/Users/Moo/Coding/Domain Master/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s323382238.307163
+e323382238.537095
+r1
+xCompileC
+xbuild/Domain Master.build/Release/Domain Master.build/Objects-normal/i386/main.o
+x/Users/Moo/Coding/Domain Master/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@46"Compile /Users/Moo/Coding/Domain Master/main.m323382238#323382238#0(0"0(0#0#38"/Users/Moo/Coding/Domain Master/main.m8600021728#1167"    cd "/Users/Moo/Coding/Domain Master"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -isysroot /Developer/SDKs/MacOSX10.5.sdk -fobjc-gc-only -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/Moo/Coding/Domain Master/build/Domain Master.build/Release/Domain Master.build/Domain Master.hmap" "-F/Users/Moo/Coding/Domain Master/build/Release" "-F/Users/Moo/Coding/Domain Master" "-I/Users/Moo/Coding/Domain Master/build/Release/include" "-I/Users/Moo/Coding/Domain Master/build/Domain Master.build/Release/Domain Master.build/DerivedSources/i386" "-I/Users/Moo/Coding/Domain Master/build/Domain Master.build/Release/Domain Master.build/DerivedSources" -include /var/folders/62/62QOQmGMGbusPGWKQ-IiLU+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/Domain_Master_Prefix-dkqxedwqoldvvldcmnqedsrfvyph/Domain_Master_Prefix.pch -c "/Users/Moo/Coding/Domain Master/main.m" -o "/Users/Moo/Coding/Domain Master/build/Domain Master.build/Release/Domain Master.build/Objects-normal/i386/main.o"0#
+
+CCompileC "build/Domain Master.build/Release/Domain Master.build/Objects-normal/ppc/AppDelegate.o" "/Users/Moo/Coding/Domain Master/AppDelegate.m" normal ppc objective-c com.apple.compilers.gcc.4_2
+s323382238.312892
+e323382238.824926
+r1
+xCompileC
+xbuild/Domain Master.build/Release/Domain Master.build/Objects-normal/ppc/AppDelegate.o
+x/Users/Moo/Coding/Domain Master/AppDelegate.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@53"Compile /Users/Moo/Coding/Domain Master/AppDelegate.m323382238#323382238#0(0"0(0#0#45"/Users/Moo/Coding/Domain Master/AppDelegate.m8611258496#1188"    cd "/Users/Moo/Coding/Domain Master"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -isysroot /Developer/SDKs/MacOSX10.5.sdk -fobjc-gc-only -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/Moo/Coding/Domain Master/build/Domain Master.build/Release/Domain Master.build/Domain Master.hmap" "-F/Users/Moo/Coding/Domain Master/build/Release" "-F/Users/Moo/Coding/Domain Master" "-I/Users/Moo/Coding/Domain Master/build/Release/include" "-I/Users/Moo/Coding/Domain Master/build/Domain Master.build/Release/Domain Master.build/DerivedSources/ppc" "-I/Users/Moo/Coding/Domain Master/build/Domain Master.build/Release/Domain Master.build/DerivedSources" -include /var/folders/62/62QOQmGMGbusPGWKQ-IiLU+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/Domain_Master_Prefix-dxdllvsvrisxlvazwbuprtprxjxv/Domain_Master_Prefix.pch -c "/Users/Moo/Coding/Domain Master/AppDelegate.m" -o "/Users/Moo/Coding/Domain Master/build/Domain Master.build/Release/Domain Master.build/Objects-normal/ppc/AppDelegate.o"0#
+
+CCompileC "build/Domain Master.build/Release/Domain Master.build/Objects-normal/ppc/MNDomainArrayController.o" "/Users/Moo/Coding/Domain Master/MNDomainArrayController.m" normal ppc objective-c com.apple.compilers.gcc.4_2
+s323382238.531593
+e323382238.778971
+r1
+xCompileC
+xbuild/Domain Master.build/Release/Domain Master.build/Objects-normal/ppc/MNDomainArrayController.o
+x/Users/Moo/Coding/Domain Master/MNDomainArrayController.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/Moo/Coding/Domain Master/MNDomainArrayController.m323382238#323382238#0(0"0(0#0#57"/Users/Moo/Coding/Domain Master/MNDomainArrayController.m8610951648#1212"    cd "/Users/Moo/Coding/Domain Master"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -isysroot /Developer/SDKs/MacOSX10.5.sdk -fobjc-gc-only -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/Moo/Coding/Domain Master/build/Domain Master.build/Release/Domain Master.build/Domain Master.hmap" "-F/Users/Moo/Coding/Domain Master/build/Release" "-F/Users/Moo/Coding/Domain Master" "-I/Users/Moo/Coding/Domain Master/build/Release/include" "-I/Users/Moo/Coding/Domain Master/build/Domain Master.build/Release/Domain Master.build/DerivedSources/ppc" "-I/Users/Moo/Coding/Domain Master/build/Domain Master.build/Release/Domain Master.build/DerivedSources" -include /var/folders/62/62QOQmGMGbusPGWKQ-IiLU+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/Domain_Master_Prefix-dxdllvsvrisxlvazwbuprtprxjxv/Domain_Master_Prefix.pch -c "/Users/Moo/Coding/Domain Master/MNDomainArrayController.m" -o "/Users/Moo/Coding/Domain Master/build/Domain Master.build/Release/Domain Master.build/Objects-normal/ppc/MNDomainArrayController.o"0#
+
+CCompileC "build/Domain Master.build/Release/Domain Master.build/Objects-normal/ppc/MNHostingArrayController.o" "/Users/Moo/Coding/Domain Master/MNHostingArrayController.m" normal ppc objective-c com.apple.compilers.gcc.4_2
+s323382238.537261
+e323382238.785805
+r1
+xCompileC
+xbuild/Domain Master.build/Release/Domain Master.build/Objects-normal/ppc/MNHostingArrayController.o
+x/Users/Moo/Coding/Domain Master/MNHostingArrayController.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/Moo/Coding/Domain Master/MNHostingArrayController.m323382238#323382238#0(0"0(0#0#58"/Users/Moo/Coding/Domain Master/MNHostingArrayController.m8610802624#1214"    cd "/Users/Moo/Coding/Domain Master"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -isysroot /Developer/SDKs/MacOSX10.5.sdk -fobjc-gc-only -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/Moo/Coding/Domain Master/build/Domain Master.build/Release/Domain Master.build/Domain Master.hmap" "-F/Users/Moo/Coding/Domain Master/build/Release" "-F/Users/Moo/Coding/Domain Master" "-I/Users/Moo/Coding/Domain Master/build/Release/include" "-I/Users/Moo/Coding/Domain Master/build/Domain Master.build/Release/Domain Master.build/DerivedSources/ppc" "-I/Users/Moo/Coding/Domain Master/build/Domain Master.build/Release/Domain Master.build/DerivedSources" -include /var/folders/62/62QOQmGMGbusPGWKQ-IiLU+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/Domain_Master_Prefix-dxdllvsvrisxlvazwbuprtprxjxv/Domain_Master_Prefix.pch -c "/Users/Moo/Coding/Domain Master/MNHostingArrayController.m" -o "/Users/Moo/Coding/Domain Master/build/Domain Master.build/Release/Domain Master.build/Objects-normal/ppc/MNHostingArrayController.o"0#
+
+CCompileC "build/Domain Master.build/Release/Domain Master.build/Objects-normal/ppc/NSString+CSV.o" "/Users/Moo/Coding/Domain Master/NSString+CSV.m" normal ppc objective-c com.apple.compilers.gcc.4_2
+s323382238.624062
+e323382238.791856
+r1
+xCompileC
+xbuild/Domain Master.build/Release/Domain Master.build/Objects-normal/ppc/NSString+CSV.o
+x/Users/Moo/Coding/Domain Master/NSString+CSV.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/Moo/Coding/Domain Master/NSString+CSV.m323382238#323382238#0(0"0(0#0#46"/Users/Moo/Coding/Domain Master/NSString+CSV.m8610373408#1190"    cd "/Users/Moo/Coding/Domain Master"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -isysroot /Developer/SDKs/MacOSX10.5.sdk -fobjc-gc-only -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/Moo/Coding/Domain Master/build/Domain Master.build/Release/Domain Master.build/Domain Master.hmap" "-F/Users/Moo/Coding/Domain Master/build/Release" "-F/Users/Moo/Coding/Domain Master" "-I/Users/Moo/Coding/Domain Master/build/Release/include" "-I/Users/Moo/Coding/Domain Master/build/Domain Master.build/Release/Domain Master.build/DerivedSources/ppc" "-I/Users/Moo/Coding/Domain Master/build/Domain Master.build/Release/Domain Master.build/DerivedSources" -include /var/folders/62/62QOQmGMGbusPGWKQ-IiLU+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/Domain_Master_Prefix-dxdllvsvrisxlvazwbuprtprxjxv/Domain_Master_Prefix.pch -c "/Users/Moo/Coding/Domain Master/NSString+CSV.m" -o "/Users/Moo/Coding/Domain Master/build/Domain Master.build/Release/Domain Master.build/Objects-normal/ppc/NSString+CSV.o"0#
+
+CCompileC "build/Domain Master.build/Release/Domain Master.build/Objects-normal/ppc/PreferenceController.o" "/Users/Moo/Coding/Domain Master/PreferenceController.m" normal ppc objective-c com.apple.compilers.gcc.4_2
+s323382238.622440
+e323382238.802810
+r1
+xCompileC
+xbuild/Domain Master.build/Release/Domain Master.build/Objects-normal/ppc/PreferenceController.o
+x/Users/Moo/Coding/Domain Master/PreferenceController.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/Moo/Coding/Domain Master/PreferenceController.m323382238#323382238#0(0"0(0#0#54"/Users/Moo/Coding/Domain Master/PreferenceController.m8610571296#1206"    cd "/Users/Moo/Coding/Domain Master"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -isysroot /Developer/SDKs/MacOSX10.5.sdk -fobjc-gc-only -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/Moo/Coding/Domain Master/build/Domain Master.build/Release/Domain Master.build/Domain Master.hmap" "-F/Users/Moo/Coding/Domain Master/build/Release" "-F/Users/Moo/Coding/Domain Master" "-I/Users/Moo/Coding/Domain Master/build/Release/include" "-I/Users/Moo/Coding/Domain Master/build/Domain Master.build/Release/Domain Master.build/DerivedSources/ppc" "-I/Users/Moo/Coding/Domain Master/build/Domain Master.build/Release/Domain Master.build/DerivedSources" -include /var/folders/62/62QOQmGMGbusPGWKQ-IiLU+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/Domain_Master_Prefix-dxdllvsvrisxlvazwbuprtprxjxv/Domain_Master_Prefix.pch -c "/Users/Moo/Coding/Domain Master/PreferenceController.m" -o "/Users/Moo/Coding/Domain Master/build/Domain Master.build/Release/Domain Master.build/Objects-normal/ppc/PreferenceController.o"0#
+
+CCompileC "build/Domain Master.build/Release/Domain Master.build/Objects-normal/ppc/main.o" "/Users/Moo/Coding/Domain Master/main.m" normal ppc objective-c com.apple.compilers.gcc.4_2
+s323382238.311877
+e323382238.531444
+r1
+xCompileC
+xbuild/Domain Master.build/Release/Domain Master.build/Objects-normal/ppc/main.o
+x/Users/Moo/Coding/Domain Master/main.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@46"Compile /Users/Moo/Coding/Domain Master/main.m323382238#323382238#0(0"0(0#0#38"/Users/Moo/Coding/Domain Master/main.m8610532576#1174"    cd "/Users/Moo/Coding/Domain Master"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -isysroot /Developer/SDKs/MacOSX10.5.sdk -fobjc-gc-only -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/Moo/Coding/Domain Master/build/Domain Master.build/Release/Domain Master.build/Domain Master.hmap" "-F/Users/Moo/Coding/Domain Master/build/Release" "-F/Users/Moo/Coding/Domain Master" "-I/Users/Moo/Coding/Domain Master/build/Release/include" "-I/Users/Moo/Coding/Domain Master/build/Domain Master.build/Release/Domain Master.build/DerivedSources/ppc" "-I/Users/Moo/Coding/Domain Master/build/Domain Master.build/Release/Domain Master.build/DerivedSources" -include /var/folders/62/62QOQmGMGbusPGWKQ-IiLU+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/Domain_Master_Prefix-dxdllvsvrisxlvazwbuprtprxjxv/Domain_Master_Prefix.pch -c "/Users/Moo/Coding/Domain Master/main.m" -o "/Users/Moo/Coding/Domain Master/build/Domain Master.build/Release/Domain Master.build/Objects-normal/ppc/main.o"0#
+
+CCompileXIB "/Users/Moo/Coding/Domain Master/English.lproj/MainMenu.xib"
+s323382232.680669
+e323382233.514391
+r1
+xCompileXIB
+x/Users/Moo/Coding/Domain Master/English.lproj/MainMenu.xib
+o/* com.apple.ibtool.document.notices */
+o/Users/Moo/Coding/Domain Master/English.lproj/MainMenu.xib:723: note: This view is clipping its content.
+lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib323382232#323382233#0(145"/* com.apple.ibtool.document.notices *//Users/Moo/Coding/Domain Master/English.lproj/MainMenu.xib:723: note: This view is clipping its content.1(13@34"This view is clipping its content.323382233#18446744073709551615#0#0(6@58"/Users/Moo/Coding/Domain Master/English.lproj/MainMenu.xib282513885#723#0#723#0#0"0(0#0#58"/Users/Moo/Coding/Domain Master/English.lproj/MainMenu.xib8611045824#357"    cd "/Users/Moo/Coding/Domain Master"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Moo/Coding/Domain Master/build/Release/Domain Master.app/Contents/Resources/English.lproj/MainMenu.nib" "/Users/Moo/Coding/Domain Master/English.lproj/MainMenu.xib" --sdk /Developer/SDKs/MacOSX10.5.sdk0#
+
+CCompileXIB "/Users/Moo/Coding/Domain Master/Preferences.xib"
+s323382232.692553
+e323382233.325231
+r1
+xCompileXIB
+x/Users/Moo/Coding/Domain Master/Preferences.xib
+o/* com.apple.ibtool.document.warnings */
+o/Users/Moo/Coding/Domain Master/Preferences.xib:4: warning: The image scaling property should not be used with checkboxes.  A checkbox should always appear at the standard size.
+o/Users/Moo/Coding/Domain Master/Preferences.xib:33: warning: The image scaling property should not be used with checkboxes.  A checkbox should always appear at the standard size.
+lSLF07#2@26"CompileXIB Preferences.xib323382232#323382233#0(398"/* com.apple.ibtool.document.warnings *//Users/Moo/Coding/Domain Master/Preferences.xib:4: warning: The image scaling property should not be used with checkboxes.  A checkbox should always appear at the standard size./Users/Moo/Coding/Domain Master/Preferences.xib:33: warning: The image scaling property should not be used with checkboxes.  A checkbox should always appear at the standard size.2(22@117"The image scaling property should not be used with checkboxes.  A checkbox should always appear at the standard size.323382233#18446744073709551615#0#0(6@47"/Users/Moo/Coding/Domain Master/Preferences.xib260145009#4#0#4#0#0"0(22@117"The image scaling property should not be used with checkboxes.  A checkbox should always appear at the standard size.323382233#18446744073709551615#0#0(6@47"/Users/Moo/Coding/Domain Master/Preferences.xib260145009#33#0#33#0#0"0(0#0#47"/Users/Moo/Coding/Domain Master/Preferences.xib8610980800#335"    cd "/Users/Moo/Coding/Domain Master"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Moo/Coding/Domain Master/build/Release/Domain Master.app/Contents/Resources/Preferences.nib" "/Users/Moo/Coding/Domain Master/Preferences.xib" --sdk /Developer/SDKs/MacOSX10.5.sdk0#
+
+CCopyStringsFile "/Users/Moo/Coding/Domain Master/build/Release/Domain Master.app/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
+s281913493.422920
+e281913493.663333
+r1
+xCopyStringsFile
+x/Users/Moo/Coding/Domain Master/build/Release/Domain Master.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings281913493#281913493#0(0"0(0#0#63"/Users/Moo/Coding/Domain Master/English.lproj/InfoPlist.strings4300882208#364"    cd "/Users/Moo/Coding/Domain Master"    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-16 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir "/Users/Moo/Coding/Domain Master/build/Release/Domain Master.app/Contents/Resources/English.lproj"0#
+
+CCpResource "build/Release/Domain Master.app/Contents/Resources/domainCSVImporter.xls" domainCSVImporter.xls
+s323382232.693514
+e323382232.744670
+r1
+xCpResource
+xbuild/Release/Domain Master.app/Contents/Resources/domainCSVImporter.xls
+xdomainCSVImporter.xls
+lSLF07#2@26"Copy domainCSVImporter.xls323382232#323382232#0(0"0(0#0#53"/Users/Moo/Coding/Domain Master/domainCSVImporter.xls8610873792#365"    cd "/Users/Moo/Coding/Domain Master"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks "/Users/Moo/Coding/Domain Master/domainCSVImporter.xls" "/Users/Moo/Coding/Domain Master/build/Release/Domain Master.app/Contents/Resources"0#
+
+CCpResource "build/Release/Domain Master.app/Contents/Resources/hostingCSVImporter.xls" hostingCSVImporter.xls
+s323382232.693029
+e323382232.744466
+r1
+xCpResource
+xbuild/Release/Domain Master.app/Contents/Resources/hostingCSVImporter.xls
+xhostingCSVImporter.xls
+lSLF07#2@27"Copy hostingCSVImporter.xls323382232#323382232#0(0"0(0#0#54"/Users/Moo/Coding/Domain Master/hostingCSVImporter.xls8610882848#366"    cd "/Users/Moo/Coding/Domain Master"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks "/Users/Moo/Coding/Domain Master/hostingCSVImporter.xls" "/Users/Moo/Coding/Domain Master/build/Release/Domain Master.app/Contents/Resources"0#
+
+CCpResource "build/Release/Domain Master.app/Contents/Resources/icon.icns" icon.icns
+s323382232.692042
+e323382232.760067
+r1
+xCpResource
+xbuild/Release/Domain Master.app/Contents/Resources/icon.icns
+xicon.icns
+lSLF07#2@14"Copy icon.icns323382232#323382232#0(0"0(0#0#41"/Users/Moo/Coding/Domain Master/icon.icns8611027712#353"    cd "/Users/Moo/Coding/Domain Master"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks "/Users/Moo/Coding/Domain Master/icon.icns" "/Users/Moo/Coding/Domain Master/build/Release/Domain Master.app/Contents/Resources"0#
+
+CCreateUniversalBinary "/Users/Moo/Coding/Domain Master/build/Release/Domain Master.app/Contents/MacOS/Domain Master" normal "i386 ppc"
+s323382239.507410
+e323382239.545955
+r1
+xCreateUniversalBinary
+x/Users/Moo/Coding/Domain Master/build/Release/Domain Master.app/Contents/MacOS/Domain Master
+xnormal
+xi386 ppc
+lSLF07#2@102"CreateUniversalBinary "build/Release/Domain Master.app/Contents/MacOS/Domain Master" normal "i386 ppc"323382239#323382239#0(0"0(0#0#40"/Users/Moo/Coding/Domain Master/i386 ppc8611229664#413"    cd "/Users/Moo/Coding/Domain Master"    /usr/bin/lipo -create "/Users/Moo/Coding/Domain Master/build/Domain Master.build/Release/Domain Master.build/Objects-normal/i386/Domain Master" "/Users/Moo/Coding/Domain Master/build/Domain Master.build/Release/Domain Master.build/Objects-normal/ppc/Domain Master" -output "/Users/Moo/Coding/Domain Master/build/Release/Domain Master.app/Contents/MacOS/Domain Master"0#
+
+CDataModelCompile "/Users/Moo/Coding/Domain Master/build/Release/Domain Master.app/Contents/Resources/Domain_Master_DataModel.mom" "/Users/Moo/Coding/Domain Master/Domain_Master_DataModel.xcdatamodel"
+s281913496.714251
+e281913496.877853
+r1
+xDataModelCompile
+x/Users/Moo/Coding/Domain Master/build/Release/Domain Master.app/Contents/Resources/Domain_Master_DataModel.mom
+x/Users/Moo/Coding/Domain Master/Domain_Master_DataModel.xcdatamodel
+lSLF07#2@75"Compile /Users/Moo/Coding/Domain Master/Domain_Master_DataModel.xcdatamodel281913496#281913496#0(0"0(0#0#67"/Users/Moo/Coding/Domain Master/Domain_Master_DataModel.xcdatamodel4300882208#281"    cd "/Users/Moo/Coding/Domain Master"    /Developer/usr/bin/momc -XD_MOMC_TARGET_VERSION=10.5 "/Users/Moo/Coding/Domain Master/Domain_Master_DataModel.xcdatamodel" "/Users/Moo/Coding/Domain Master/build/Release/Domain Master.app/Contents/Resources/Domain_Master_DataModel.mom"0#
+
+CGenerateDSYMFile "/Users/Moo/Coding/Domain Master/build/Release/Domain Master.app.dSYM" "/Users/Moo/Coding/Domain Master/build/Release/Domain Master.app/Contents/MacOS/Domain Master"
+s323382239.546035
+e323382239.663356
+r1
+xGenerateDSYMFile
+x/Users/Moo/Coding/Domain Master/build/Release/Domain Master.app.dSYM
+x/Users/Moo/Coding/Domain Master/build/Release/Domain Master.app/Contents/MacOS/Domain Master
+lSLF07#2@118"GenerateDSYMFile "build/Release/Domain Master.app.dSYM" "build/Release/Domain Master.app/Contents/MacOS/Domain Master"323382239#323382239#0(0"0(0#0#92"/Users/Moo/Coding/Domain Master/build/Release/Domain Master.app/Contents/MacOS/Domain Master8610960256#242"    cd "/Users/Moo/Coding/Domain Master"    /Developer/usr/bin/dsymutil "/Users/Moo/Coding/Domain Master/build/Release/Domain Master.app/Contents/MacOS/Domain Master" -o "/Users/Moo/Coding/Domain Master/build/Release/Domain Master.app.dSYM"0#
+
+CLd "/Users/Moo/Coding/Domain Master/build/Domain Master.build/Release/Domain Master.build/Objects-normal/i386/Domain Master" normal i386
+s323382238.816397
+e323382239.507350
+r1
+xLd
+x/Users/Moo/Coding/Domain Master/build/Domain Master.build/Release/Domain Master.build/Objects-normal/i386/Domain Master
+xnormal
+xi386
+lSLF07#2@124"Link /Users/Moo/Coding/Domain Master/build/Domain Master.build/Release/Domain Master.build/Objects-normal/i386/Domain Master323382238#323382239#0(0"0(0#0#0"8602911744#633"    cd "/Users/Moo/Coding/Domain Master"    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.5.sdk "-L/Users/Moo/Coding/Domain Master/build/Release" "-F/Users/Moo/Coding/Domain Master/build/Release" "-F/Users/Moo/Coding/Domain Master" -filelist "/Users/Moo/Coding/Domain Master/build/Domain Master.build/Release/Domain Master.build/Objects-normal/i386/Domain Master.LinkFileList" -mmacosx-version-min=10.5 -framework Cocoa -framework Sparkle -o "/Users/Moo/Coding/Domain Master/build/Domain Master.build/Release/Domain Master.build/Objects-normal/i386/Domain Master"0#
+
+CLd "/Users/Moo/Coding/Domain Master/build/Domain Master.build/Release/Domain Master.build/Objects-normal/ppc/Domain Master" normal ppc
+s323382238.825001
+e323382239.506788
+r1
+xLd
+x/Users/Moo/Coding/Domain Master/build/Domain Master.build/Release/Domain Master.build/Objects-normal/ppc/Domain Master
+xnormal
+xppc
+lSLF07#2@123"Link /Users/Moo/Coding/Domain Master/build/Domain Master.build/Release/Domain Master.build/Objects-normal/ppc/Domain Master323382238#323382239#0(0"0(0#0#0"8602920992#630"    cd "/Users/Moo/Coding/Domain Master"    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch ppc -isysroot /Developer/SDKs/MacOSX10.5.sdk "-L/Users/Moo/Coding/Domain Master/build/Release" "-F/Users/Moo/Coding/Domain Master/build/Release" "-F/Users/Moo/Coding/Domain Master" -filelist "/Users/Moo/Coding/Domain Master/build/Domain Master.build/Release/Domain Master.build/Objects-normal/ppc/Domain Master.LinkFileList" -mmacosx-version-min=10.5 -framework Cocoa -framework Sparkle -o "/Users/Moo/Coding/Domain Master/build/Domain Master.build/Release/Domain Master.build/Objects-normal/ppc/Domain Master"0#
+
+CPBXCp "build/Release/Domain Master.app/Contents/Frameworks/Sparkle.framework" Sparkle.framework
+s323382239.663515
+e323382240.111520
+r1
+xPBXCp
+xbuild/Release/Domain Master.app/Contents/Frameworks/Sparkle.framework
+xSparkle.framework
+lSLF07#2@22"Copy Sparkle.framework323382239#323382240#0(0"0(0#0#49"/Users/Moo/Coding/Domain Master/Sparkle.framework8610546176#362"    cd "/Users/Moo/Coding/Domain Master"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks "/Users/Moo/Coding/Domain Master/Sparkle.framework" "/Users/Moo/Coding/Domain Master/build/Release/Domain Master.app/Contents/Frameworks"0#
+
+CProcessInfoPlistFile "/Users/Moo/Coding/Domain Master/build/Release/Domain Master.app/Contents/Info.plist" Info.plist
+s323382232.648165
+e323382232.680532
+r1
+xProcessInfoPlistFile
+x/Users/Moo/Coding/Domain Master/build/Release/Domain Master.app/Contents/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist323382232#323382232#0(0"0(0#0#42"/Users/Moo/Coding/Domain Master/Info.plist4841211752415654912#303"    cd "/Users/Moo/Coding/Domain Master"    builtin-infoPlistUtility Info.plist -genpkginfo "/Users/Moo/Coding/Domain Master/build/Release/Domain Master.app/Contents/PkgInfo" -expandbuildsettings -platform macosx -o "/Users/Moo/Coding/Domain Master/build/Release/Domain Master.app/Contents/Info.plist"0#
+
+CProcessPCH /var/folders/62/62QOQmGMGbusPGWKQ-IiLU+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/Domain_Master_Prefix-atectbbkyhnzfxcwtdrzmlvoqlpj/Domain_Master_Prefix.pch.gch Domain_Master_Prefix.pch normal ppc objective-c com.apple.compilers.gcc.4_2
+s281913493.664220
+e281913496.458905
+r1
+xProcessPCH
+x/var/folders/62/62QOQmGMGbusPGWKQ-IiLU+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/Domain_Master_Prefix-atectbbkyhnzfxcwtdrzmlvoqlpj/Domain_Master_Prefix.pch.gch
+xDomain_Master_Prefix.pch
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@35"Precompile Domain_Master_Prefix.pch281913493#281913496#0(0"0(0#0#56"/Users/Moo/Coding/Domain Master/Domain_Master_Prefix.pch4300882208#1067"    cd "/Users/Moo/Coding/Domain Master"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch ppc -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -isysroot /Developer/SDKs/MacOSX10.5.sdk -fobjc-gc-only -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/Moo/Coding/Domain Master/build/Domain Master.build/Release/Domain Master.build/Domain Master.hmap" "-F/Users/Moo/Coding/Domain Master/build/Release" "-F/Users/Moo/Coding/Domain Master" "-I/Users/Moo/Coding/Domain Master/build/Release/include" "-I/Users/Moo/Coding/Domain Master/build/Domain Master.build/Release/Domain Master.build/DerivedSources/ppc" "-I/Users/Moo/Coding/Domain Master/build/Domain Master.build/Release/Domain Master.build/DerivedSources" -c "/Users/Moo/Coding/Domain Master/Domain_Master_Prefix.pch" -o /var/folders/62/62QOQmGMGbusPGWKQ-IiLU+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/Domain_Master_Prefix-atectbbkyhnzfxcwtdrzmlvoqlpj/Domain_Master_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/62/62QOQmGMGbusPGWKQ-IiLU+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/Domain_Master_Prefix-biwmzckwmnosduabrfdomgxwcdbw/Domain_Master_Prefix.pch.gch Domain_Master_Prefix.pch normal ppc objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/62/62QOQmGMGbusPGWKQ-IiLU+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/Domain_Master_Prefix-dkqxedwqoldvvldcmnqedsrfvyph/Domain_Master_Prefix.pch.gch Domain_Master_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s323382233.514495
+e323382238.306988
+r1
+xProcessPCH
+x/var/folders/62/62QOQmGMGbusPGWKQ-IiLU+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/Domain_Master_Prefix-dkqxedwqoldvvldcmnqedsrfvyph/Domain_Master_Prefix.pch.gch
+xDomain_Master_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@35"Precompile Domain_Master_Prefix.pch323382233#323382238#0(0"0(0#0#56"/Users/Moo/Coding/Domain Master/Domain_Master_Prefix.pch7311718701092141056#1072"    cd "/Users/Moo/Coding/Domain Master"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -isysroot /Developer/SDKs/MacOSX10.5.sdk -fobjc-gc-only -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/Moo/Coding/Domain Master/build/Domain Master.build/Release/Domain Master.build/Domain Master.hmap" "-F/Users/Moo/Coding/Domain Master/build/Release" "-F/Users/Moo/Coding/Domain Master" "-I/Users/Moo/Coding/Domain Master/build/Release/include" "-I/Users/Moo/Coding/Domain Master/build/Domain Master.build/Release/Domain Master.build/DerivedSources/i386" "-I/Users/Moo/Coding/Domain Master/build/Domain Master.build/Release/Domain Master.build/DerivedSources" -c "/Users/Moo/Coding/Domain Master/Domain_Master_Prefix.pch" -o /var/folders/62/62QOQmGMGbusPGWKQ-IiLU+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/Domain_Master_Prefix-dkqxedwqoldvvldcmnqedsrfvyph/Domain_Master_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/62/62QOQmGMGbusPGWKQ-IiLU+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/Domain_Master_Prefix-dnzvnjkxhpergkethqoauqmyybyq/Domain_Master_Prefix.pch.gch Domain_Master_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/62/62QOQmGMGbusPGWKQ-IiLU+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/Domain_Master_Prefix-dxdllvsvrisxlvazwbuprtprxjxv/Domain_Master_Prefix.pch.gch Domain_Master_Prefix.pch normal ppc objective-c com.apple.compilers.gcc.4_2
+s323382233.515244
+e323382238.219384
+r1
+xProcessPCH
+x/var/folders/62/62QOQmGMGbusPGWKQ-IiLU+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/Domain_Master_Prefix-dxdllvsvrisxlvazwbuprtprxjxv/Domain_Master_Prefix.pch.gch
+xDomain_Master_Prefix.pch
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@35"Precompile Domain_Master_Prefix.pch323382233#323382238#0(0"0(0#0#56"/Users/Moo/Coding/Domain Master/Domain_Master_Prefix.pch8603409472#1080"    cd "/Users/Moo/Coding/Domain Master"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch ppc -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -isysroot /Developer/SDKs/MacOSX10.5.sdk -fobjc-gc-only -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/Moo/Coding/Domain Master/build/Domain Master.build/Release/Domain Master.build/Domain Master.hmap" "-F/Users/Moo/Coding/Domain Master/build/Release" "-F/Users/Moo/Coding/Domain Master" "-I/Users/Moo/Coding/Domain Master/build/Release/include" "-I/Users/Moo/Coding/Domain Master/build/Domain Master.build/Release/Domain Master.build/DerivedSources/ppc" "-I/Users/Moo/Coding/Domain Master/build/Domain Master.build/Release/Domain Master.build/DerivedSources" -c "/Users/Moo/Coding/Domain Master/Domain_Master_Prefix.pch" -o /var/folders/62/62QOQmGMGbusPGWKQ-IiLU+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/Domain_Master_Prefix-dxdllvsvrisxlvazwbuprtprxjxv/Domain_Master_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/62/62QOQmGMGbusPGWKQ-IiLU+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/Domain_Master_Prefix-ereuthipmwqgrubnxjlbjhqrehzi/Domain_Master_Prefix.pch.gch Domain_Master_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s281913493.663444
+e281913496.714166
+r1
+xProcessPCH
+x/var/folders/62/62QOQmGMGbusPGWKQ-IiLU+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/Domain_Master_Prefix-ereuthipmwqgrubnxjlbjhqrehzi/Domain_Master_Prefix.pch.gch
+xDomain_Master_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@35"Precompile Domain_Master_Prefix.pch281913493#281913496#0(0"0(0#0#56"/Users/Moo/Coding/Domain Master/Domain_Master_Prefix.pch4300882208#1072"    cd "/Users/Moo/Coding/Domain Master"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -isysroot /Developer/SDKs/MacOSX10.5.sdk -fobjc-gc-only -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/Moo/Coding/Domain Master/build/Domain Master.build/Release/Domain Master.build/Domain Master.hmap" "-F/Users/Moo/Coding/Domain Master/build/Release" "-F/Users/Moo/Coding/Domain Master" "-I/Users/Moo/Coding/Domain Master/build/Release/include" "-I/Users/Moo/Coding/Domain Master/build/Domain Master.build/Release/Domain Master.build/DerivedSources/i386" "-I/Users/Moo/Coding/Domain Master/build/Domain Master.build/Release/Domain Master.build/DerivedSources" -c "/Users/Moo/Coding/Domain Master/Domain_Master_Prefix.pch" -o /var/folders/62/62QOQmGMGbusPGWKQ-IiLU+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/Domain_Master_Prefix-ereuthipmwqgrubnxjlbjhqrehzi/Domain_Master_Prefix.pch.gch0#
+
+CTouch "/Users/Moo/Coding/Domain Master/build/Release/Domain Master.app"
+s323382240.111648
+e323382240.113945
+r1
+xTouch
+x/Users/Moo/Coding/Domain Master/build/Release/Domain Master.app
+lSLF07#2@69"Touch /Users/Moo/Coding/Domain Master/build/Release/Domain Master.app323382240#323382240#0(0"0(0#0#0"8602923680#129"    cd "/Users/Moo/Coding/Domain Master"    /usr/bin/touch -c "/Users/Moo/Coding/Domain Master/build/Release/Domain Master.app"0#
+
