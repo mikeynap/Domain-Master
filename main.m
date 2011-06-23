@@ -12,5 +12,6 @@ int main(int argc, char *argv[])
 {
     NSLog(@"thERE heRE");
     // adfasdf
+    
     return NSApplicationMain(argc,  (const char **) argv);
 }

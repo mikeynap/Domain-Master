@@ -71,13 +71,25 @@
 	
 }
 
+
+
 - (void)objectsDidChange:(NSNotification *)note{
 	[hostingArrayController pleaseSort:nil];
 	[domainArrayController pleaseSort:nil];
+
 }
 
 - (IBAction)billedClient:(id)sender {
 	[hostingArrayController addYear:[tableView dataSource]];
+    [hostingArrayController paymentStatusOfItem:10];
+}
+
+- (void)tableView:(NSTableView *)aTableView willDisplayCell:(id)aCell forTableColumn:(NSTableColumn *)aTableColumn row:(NSInteger)rowIndex{
+    id a = [aCell objectValue];
+    NSColor *c = nil;
+
+    [aCell setBackgroundColor:[NSColor purpleColor]];
+    [aCell setDrawsBackground:YES];
 }
 
 
@@ -195,7 +207,7 @@
     fileManager = [NSFileManager defaultManager];
     applicationSupportFolder = [self applicationSupportFolder];
     if ( ![fileManager fileExistsAtPath:applicationSupportFolder isDirectory:NULL] ) {
-        [fileManager createDirectoryAtPath:applicationSupportFolder attributes:nil];
+        [fileManager createDirectoryAtPath:applicationSupportFolder withIntermediateDirectories:YES attributes:nil error:NULL];
     }
     
     url = [NSURL fileURLWithPath: [applicationSupportFolder stringByAppendingPathComponent: @"Domain Master.xml"]];

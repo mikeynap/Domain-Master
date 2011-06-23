@@ -11,7 +11,7 @@
 @class MNHostingArrayController;
 @class MNDomainArrayController;
 
-@interface AppDelegate : NSObject {
+@interface AppDelegate : NSObject <NSTableViewDelegate> {
 	//Outlets
 	IBOutlet NSTableView *tableView;
 	IBOutlet NSTextField *hostingName;
@@ -49,5 +49,5 @@
 - (IBAction)showCSVSheet:(id)sender;
 - (IBAction)billedClient:(id)sender;
 
-
+- (void)tableView:(NSTableView *)aTableView willDisplayCell:(id)aCell forTableColumn:(NSTableColumn *)aTableColumn row:(NSInteger)rowIndex;
 @end

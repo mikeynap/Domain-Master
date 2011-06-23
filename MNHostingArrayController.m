@@ -22,6 +22,8 @@
 	[newObj setValue:[NSDate date] forKey:@"setupDate"];
 	[newObj setValue:date forKey:@"expirationDate"];
 	[newObj setValue:[NSNumber numberWithBool:NO] forKey:@"needsToBeRenewed"];
+    NSArray *a = [tableView tableColumns];
+
 	[self rearrangeObjects];
 	[name becomeFirstResponder]; //Focus on that blue ring thing
 	return newObj;
@@ -40,7 +42,7 @@
                                       error:&error];
 	
 	if (stringFromFileAtPath == nil) {
-		NSLog(@"%@",error);
+		NSLog(@"%@ asdfasdf",error);
 		return;
 	}
 	NSArray *array = [stringFromFileAtPath csvRows];
@@ -53,7 +55,6 @@
 		NSLog(@"IN");
 		NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];  
 		id newObj = [super newObject];
-
 		for(int j = 0; j < [keyArray count]; j++){
 			id tmp;
 			id elm = [[array objectAtIndex:i] objectAtIndex:j];
@@ -79,6 +80,19 @@
 		NSLog(@"Did We Insert? %@",newObj);
 		[pool drain];
 	}
+}
+
+- (int)paymentStatusOfItem:(int)index{
+    NSLog(@"dasdfThings");
+    id a = [[self arrangedObjects] objectAtIndex:index];
+    [a objectForKey:@"expirationDate"];
+    NSLog(@"Things %@",a);
+    return 1;
+}
+
+- (void)objectAdded: (NSNotification *)note{
+    
+    
 }
 
 #pragma mark CSV File Open Methods

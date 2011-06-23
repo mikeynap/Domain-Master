@@ -23,5 +23,5 @@
 			 returnCode:(int)returnCode
 			contextInfo:(void*)contextInfo;	
 - (IBAction)addYear:(id)sender;
-
+- (int)paymentStatusOfItem:(int)index;
 @end
