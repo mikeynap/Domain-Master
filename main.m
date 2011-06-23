@@ -10,5 +10,6 @@
 
 int main(int argc, char *argv[])
 {
+    NSLog(@"thERE heRE");
     return NSApplicationMain(argc,  (const char **) argv);
 }
